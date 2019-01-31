@@ -1,0 +1,149 @@
+html,
+body {
+	min-width: 290px;
+	-ms-overflow-style: scrollbar
+}
+
+body {
+	background-color: #ecf0f5;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #333;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased !important
+}
+h1, h2, h3{
+	padding: 0 15px;
+	font-weight: bold;
+	color: #333
+}
+.disabled{
+	opacity: .4;
+}
+.label{
+	text-align: center;
+	color: #fff;
+	padding: 5px 10px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	font-weight: 100;
+	font-size: 12px;
+	width: 40%;
+	margin: 0 2.5%;
+	display: inline-block;
+	cursor: default;
+}
+.label-lg{
+	padding: 10px 20px;
+}
+.label-err{
+	background-color: #ff001f;
+}
+.label-req{
+	background-color: #bd10e0;
+}
+.label-app{
+	background-color: #4a90e2;
+}
+.label-iter{
+	background-color: #9013fe;
+}
+.label-bd{
+	background-color: #5f9521;
+}
+.label-cache{
+	background-color: #219550;
+}
+.label-info{
+	background-color: #9b9b9b;
+}
+.label-model{
+	background-color: #f5a623;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	color: #9d9d9d;
+	position: relative;
+}
+li{
+	margin: 5px 0
+}
+.bold{
+	font-weight: bold;
+	color: #333;
+}
+li.date{
+	font-size: 16px
+}
+li.time{
+	font-size: 18px
+}
+li.api-name{
+	font-size: 18px
+}
+.first{
+	width: 7.5%
+}
+.second{
+	width: 10%
+}
+.third{
+	width: 30%
+}
+.fourth{
+	width: 27.5%
+}
+.fifth{
+	width: 25%
+}
+.third ul li:nth-child(1){
+	font-size: 18px
+}
+.third span{
+	display: inline-block;
+	width: 40%;
+}
+.third span:nth-child(w){
+	margin: 0 0 0 10%;
+}
+.fourth ul li:nth-child(1){
+	font-size: 18px;
+	margin: 0 0 10px 0
+}
+li.active{
+	padding-left: 40px;
+	position: relative;
+}
+li.active::before{
+	position: absolute;
+	content: "";
+	width: 20px;
+	height: 20px;
+	background-color: #00cc00;
+	border-radius: 50px;
+	left: 0px;
+	top: 2.5px
+}
+tr, td{
+	position: relative;
+	border: none !important;
+}
+.first::after,
+.second::after,
+.third::after,
+.fourth::after{
+	content: "";
+	position: absolute;
+	width: 4px;
+	height: 60%;
+	top: 20%;
+	right: 0;
+	background-color: #eaeaea;
+	border-radius: 5px
+}
+tbody>tr:nth-of-type(even) {
+    background-color: #f8f8f8;
+}

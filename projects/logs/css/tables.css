@@ -1,0 +1,159 @@
+html,
+body {
+	min-width: 290px;
+	-ms-overflow-style: scrollbar
+}
+
+body {
+	background-color: #ecf0f5;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #7a878e;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased !important
+}
+.legend>table {
+	color: inherit !important
+}
+.legendInline .legend table {
+	position: relative !important;
+	top: 0 !important;
+	left: 0 !important;
+	z-index: 2
+}
+body .datepicker table thead {
+	color: #4d627b
+}
+body .datepicker table tr td span.active.active,
+body .datepicker table tr td span.active.disabled.active,
+body .datepicker table tr td span.active.disabled:active,
+body .datepicker table tr td span.active.disabled.active:hover,
+body .datepicker table tr td span.active.disabled:hover:active,
+body .datepicker table tr td span.active:active,
+body .datepicker table tr td span.active.active:hover,
+body .datepicker table tr td span.active:hover:active,
+body .datepicker table tr td.active.active,
+body .datepicker table tr td.active.highlighted.active,
+body .datepicker table tr td.active.highlighted:active,
+body .datepicker table tr td.active:active,
+body .datepicker table tr td.selected,
+body .datepicker table tr td.selected.highlighted {
+	background-color: #25476a;
+	border-color: #25476a;
+	color: #fff
+}
+body .datepicker table tr td.active.active:hover {
+	background-color: #182e44
+}
+
+body .datepicker table tr td.range {
+	background-color: #6093c8
+}
+
+body .bootstrap-timepicker-widget table td a {
+	color: #4d627b
+}
+body .fixed-table-container tbody .selected td,
+body #container .table.dataTable tbody tr.selected {
+	background-color: #25476a;
+	color: #fff
+}
+
+body .fixed-table-container tbody .selected td .text-muted,
+body .fixed-table-container tbody .selected td .btn-link,
+body #container .table.dataTable tbody tr.selected .text-muted,
+body #container .table.dataTable tbody tr.selected .btn-link {
+	color: #fff
+}
+body .full-content+.note-editor .note-editable.panel-body {
+	border-width: 1px 0 0 0
+}
+body .note-editable.panel-body {
+	border: 1px solid rgba(0, 0, 0, 0.07)
+}
+#container .table th {
+	font-size: 1.05em;
+	font-weight: 600;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+	color: #4d627b
+}
+
+#container .table td {
+	border-top: 1px solid rgba(0, 0, 0, 0.07)
+}
+
+#container .table.table-vcenter th,
+#container .table.table-vcenter td {
+	vertical-align: middle
+}
+
+#container .table .min-width {
+	width: 1%;
+	white-space: nowrap;
+	padding-left: 15px !important;
+	padding-right: 15px !important
+}
+
+#container .table-trans tr,
+#container .table-trans td,
+#container .table-trans th {
+	background-color: transparent !important;
+	border-color: transparent !important
+}
+
+#container .table-bordered,
+#container .table-bordered td,
+#container .table-bordered th {
+	border-color: rgba(0, 0, 0, 0.07)
+}
+
+#container .table-striped>tbody>tr:nth-child(2n+1) {
+	background-color: rgba(0, 0, 0, 0.015)
+}
+
+#container .table-hover>tbody>tr:hover {
+	background-color: rgba(0, 0, 0, 0.015)
+}
+.label-table {
+	display: inline-block;
+	width: 80%;
+	min-width: 8ex;
+	font-size: 1em;
+	max-width: 100px;
+	padding: 5px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	vertical-align: top
+}
+.panel>.panel-body+.table,
+.panel>.panel-body+.table-responsive,
+.panel>.table+.panel-body,
+.panel>.table-responsive+.panel-body {
+	border: 0
+}
+.toolbar-left,
+.toolbar-right,
+.table-toolbar-left,
+.table-toolbar-right {
+	text-align: center;
+	padding-bottom: 15px
+}
+
+.toolbar-right>.form-group,
+.table-toolbar-right>.form-group {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0
+}
+@media (min-width: 760px) {
+	.toolbar-left,
+	.table-toolbar-left {
+		float: left;
+		text-align: left
+	}
+	.toolbar-right,
+	.table-toolbar-right {
+		text-align: right
+	}
+}
