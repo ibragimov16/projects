@@ -18,6 +18,9 @@ h1, h2, h3{
 	font-weight: bold;
 	color: #333
 }
+.row{
+	margin: 0
+}
 .disabled{
 	opacity: .4;
 }
@@ -29,7 +32,7 @@ h1, h2, h3{
 	border: none;
 	border-radius: 5px;
 	font-weight: 100;
-	font-size: 12px;
+	font-size: 9px;
 	width: 40%;
 	margin: 0 2.5%;
 	display: inline-block;
@@ -85,22 +88,27 @@ li.api-name{
 	font-size: 18px
 }
 .first{
-	width: 7.5%
+	width: 10%
 }
 .second{
 	width: 10%
 }
 .third{
-	width: 30%
+	width: 10%
 }
 .fourth{
-	width: 27.5%
+	width: 20%
 }
 .fifth{
 	width: 25%
 }
-.third ul li:nth-child(1){
-	font-size: 18px
+.sixth{
+	width: 25%
+}
+.third ul li:nth-child(1),
+.fourth ul li:nth-child(1){
+	font-size: 18px;
+	margin: 5px 0s;
 }
 .third span{
 	display: inline-block;
@@ -109,15 +117,19 @@ li.api-name{
 .third span:nth-child(w){
 	margin: 0 0 0 10%;
 }
-.fourth ul li:nth-child(1){
+.fifth ul li:nth-child(1){
 	font-size: 18px;
-	margin: 0 0 10px 0
+	margin: 0 0 10px 0;
 }
-li.active{
+li.good,
+li.middle,
+li.bad{
 	padding-left: 40px;
 	position: relative;
 }
-li.active::before{
+li.good::before,
+li.middle::before,
+li.bad::before{
 	position: absolute;
 	content: "";
 	width: 20px;
@@ -127,6 +139,12 @@ li.active::before{
 	left: 0px;
 	top: 2.5px
 }
+li.middle::before{
+	background-color: #f5a623;
+}
+li.bad::before{
+	background-color: #ff001f;
+}
 tr, td{
 	position: relative;
 	border: none !important;
@@ -134,7 +152,8 @@ tr, td{
 .first::after,
 .second::after,
 .third::after,
-.fourth::after{
+.fourth::after,
+.fifth::after{
 	content: "";
 	position: absolute;
 	width: 4px;
