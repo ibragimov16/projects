@@ -1,0 +1,17 @@
+.filter input,
+.filter .input-group-text{
+	font-size: 12px
+}
+.row .col{
+	text-align: center;
+	padding: 5px 15px;
+}
+input.submit{
+	font-size: 16px
+}
+.filter{
+	border-bottom: 5px solid #eaeaea
+}
+h1, h2{
+	padding: 0 30px
+}
