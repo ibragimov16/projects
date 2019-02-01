@@ -103,23 +103,35 @@ li.api-name{
 	width: 25%
 }
 .sixth{
-	width: 25%
+	width: 25%;
+	overflow-y: scroll;
 }
 .third ul li:nth-child(1),
 .fourth ul li:nth-child(1){
-	font-size: 18px;
+	font-size: 18px;s
 	margin: 5px 0s;
 }
 .third span{
 	display: inline-block;
 	width: 40%;
 }
-.third span:nth-child(w){
+.fourth span:nth-child(2){
 	margin: 0 0 0 10%;
 }
 .fifth ul li:nth-child(1){
 	font-size: 18px;
 	margin: 0 0 10px 0;
+}
+.sixth ul{
+	max-height: 100px;s
+}
+
+.sixth li span:nth-child(1){
+	width: 10%;
+}
+.sixth li span{
+    display: inline-grid;
+    margin: 0 5px;
 }
 li.good,
 li.middle,
