@@ -2,256 +2,379 @@
 <html>
 <head>
 	<title>LOGS</title>
+	<meta charset="utf-8">
 	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/filter.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 </head>
 <body>
-	<h1>Logs</h1>
-	<div class="row">
-		<div class="col-lg-12">
-			<div class="panel">
-				<div class="panel-body">
-					<table class="table table-hover table-vcenter">
-					    <tbody>
-					        <tr>
-					            <td class="first">
-					            	<ul>
-					            		<li class="date">Чт, 31.01.2019</li>
-					            		<li class="time bold">12:26.302</li>
-					            		<li class="labels">
-					            			<div class="label label-req">req</div> 
-					            			<div class="label label-err">error</div>
-					            		</li>
-					            	</ul>
-					            </td>
-					            <td class="second">
-					            	<ul>
-					            		<li class="api-name bold">api-entities</li>
-					            		<li class="api-version">1.1.85</li>
-					            		<li class="api-time bold">2d 23m</li>
-					            	</ul>
-					            </td>
-					            <td class="third">
-					            	<ul>
-					            		<li class="bold">79503130989</li>
-					            		<li class="">65707fbc-6569-49efbbe3-31b5db6eaee9</li>
-					            	</ul>
-					            </td>
-					            <td class="fourth">
-					            	<ul>
-					            		<li class="bold">Nikolay@iPhoneXs</li>
-					            		<li class="">65707fbc-6569-49ef-bbe3-31b5db6eaee9</li>
-					            		<li class="">
-					            			<span class="bold">SP2 v2.0.18290</span> 
-					            			<span>192.168.1.20</span>
-					            		</li>
-					            	</ul>
-					            </td>
-					            <td class="fifth">
-					            	<ul>
-					            		<li class="bold">Try save don't changed model</li>
-					            		<li class="">1548926973.591#b8b963b6-4838-409a-bb8e-baa9e2d7ad98</li>
-					            		<li class="bold">12 ms</li>
-					            	</ul>
-					            </td>
-					            <td class="sixth">
-					            	<ul>
-					            		<li class="">
-					            			<span class="bold text-right">ID: </span>
-					            			<span>574dfda7-a585-4f1a-a05d-fdc39730c292</span>
-					            		</li>
-					            		<li class="">
-					            			<span class="bold text-right">aclID: </span>
-					            			<span>65707fbc-6569-49ef-bbe3-31b5db6eaee9</span>
-					            		</li>
-					            		<li class="">
-					            			<span class="bold text-right">status: </span>
-					            			<span>0</span>
-					            		s</li>
-					            	</ul>
-					            </td>
-					        </tr>
-					        <tr>
-					            <td class="first">
-					            	<ul>
-					            		<li class="date">Чт, 31.01.2019</li>
-					            		<li class="time bold">12:26.302</li>
-					            		<li class="labels">
-					            			<div class="label label-req">req</div> 
-					            			<div class="label label-err">error</div>
-					            		</li>
-					            	</ul>
-					            </td>
-					            <td class="second">
-					            	<ul>
-					            		<li class="api-name bold">api-entities</li>
-					            		<li class="api-version">1.1.85</li>
-					            		<li class="api-time bold">2d 23m</li>
-					            	</ul>
-					            </td>
-					            <td class="third">
-					            	<ul>
-					            		<li class="bold">79503130989</li>
-					            		<li class="">65707fbc-6569-49efbbe3-31b5db6eaee9</li>
-					            	</ul>
-					            </td>
-					            <td class="fourth">
-					            	<ul>
-					            		<li class="bold">Nikolay@iPhoneXs</li>
-					            		<li class="">65707fbc-6569-49ef-bbe3-31b5db6eaee9</li>
-					            		<li class="">
-					            			<span class="bold">SP2 v2.0.18290</span> 
-					            			<span>192.168.1.20</span>
-					            		</li>
-					            	</ul>
-					            </td>
-					            <td class="fifth">
-					            	<ul>
-					            		<li class="bold">Try save don't changed model</li>
-					            		<li class="">1548926973.591#b8b963b6-4838-409a-bb8e-baa9e2d7ad98</li>
-					            		<li class="bold">12 ms</li>
-					            	</ul>
-					            </td>
-					            <td class="sixth">
-					            	<ul>
-					            		<li class="">
-					            			<span class="bold text-right">ID: </span>
-					            			<span>574dfda7-a585-4f1a-a05d-fdc39730c292</span>
-					            		</li>
-					            		<li class="">
-					            			<span class="bold text-right">aclID: </span>
-					            			<span>65707fbc-6569-49ef-bbe3-31b5db6eaee9</span>
-					            		</li>
-					            		<li class="">
-					            			<span class="bold text-right">status: </span>
-					            			<span>0</span>
-					            		s</li>
-					            	</ul>
-					            </td>
-					        </tr>
-					        <tr>
-					            <td class="first">
-					            	<ul>
-					            		<li class="date">Чт, 31.01.2019</li>
-					            		<li class="time bold">12:26.302</li>
-					            		<li class="labels">
-					            			<div class="label label-req">req</div> 
-					            			<div class="label label-err">error</div>
-					            		</li>
-					            	</ul>
-					            </td>
-					            <td class="second">
-					            	<ul>
-					            		<li class="api-name bold">api-entities</li>
-					            		<li class="api-version">1.1.85</li>
-					            		<li class="api-time bold">2d 23m</li>
-					            	</ul>
-					            </td>
-					            <td class="third">
-					            	<ul>
-					            		<li class="bold">79503130989</li>
-					            		<li class="">65707fbc-6569-49efbbe3-31b5db6eaee9</li>
-					            	</ul>
-					            </td>
-					            <td class="fourth">
-					            	<ul>
-					            		<li class="bold">Nikolay@iPhoneXs</li>
-					            		<li class="">65707fbc-6569-49ef-bbe3-31b5db6eaee9</li>
-					            		<li class="">
-					            			<span class="bold">SP2 v2.0.18290</span> 
-					            			<span>192.168.1.20</span>
-					            		</li>
-					            	</ul>
-					            </td>
-					            <td class="fifth">
-					            	<ul>
-					            		<li class="bold">Try save don't changed model</li>
-					            		<li class="">1548926973.591#b8b963b6-4838-409a-bb8e-baa9e2d7ad98</li>
-					            		<li class="bold">12 ms</li>
-					            	</ul>
-					            </td>
-					            <td class="sixth">
-					            	<ul>
-					            		<li class="">
-					            			<span class="bold text-right">ID: </span>
-					            			<span>574dfda7-a585-4f1a-a05d-fdc39730c292</span>
-					            		</li>
-					            		<li class="">
-					            			<span class="bold text-right">aclID: </span>
-					            			<span>65707fbc-6569-49ef-bbe3-31b5db6eaee9</span>
-					            		</li>
-					            		<li class="">
-					            			<span class="bold text-right">status: </span>
-					            			<span>0</span>
-					            		s</li>
-					            	</ul>
-					            </td>
-					        </tr>
-					        <tr>
-					            <td class="first">
-					            	<ul>
-					            		<li class="date">Чт, 31.01.2019</li>
-					            		<li class="time bold">12:26.302</li>
-					            		<li class="labels">
-					            			<div class="label label-req">req</div> 
-					            			<div class="label label-err">error</div>
-					            		</li>
-					            	</ul>
-					            </td>
-					            <td class="second">
-					            	<ul>
-					            		<li class="api-name bold">api-entities</li>
-					            		<li class="api-version">1.1.85</li>
-					            		<li class="api-time bold">2d 23m</li>
-					            	</ul>
-					            </td>
-					            <td class="third">
-					            	<ul>
-					            		<li class="bold">79503130989</li>
-					            		<li class="">65707fbc-6569-49efbbe3-31b5db6eaee9</li>
-					            	</ul>
-					            </td>
-					            <td class="fourth">
-					            	<ul>
-					            		<li class="bold">Nikolay@iPhoneXs</li>
-					            		<li class="">65707fbc-6569-49ef-bbe3-31b5db6eaee9</li>
-					            		<li class="">
-					            			<span class="bold">SP2 v2.0.18290</span> 
-					            			<span>192.168.1.20</span>
-					            		</li>
-					            	</ul>
-					            </td>
-					            <td class="fifth">
-					            	<ul>
-					            		<li class="bold">Try save don't changed model</li>
-					            		<li class="">1548926973.591#b8b963b6-4838-409a-bb8e-baa9e2d7ad98</li>
-					            		<li class="bold">12 ms</li>
-					            	</ul>
-					            </td>
-					            <td class="sixth">
-					            	<ul>
-					            		<li class="">
-					            			<span class="bold text-right">ID: </span>
-					            			<span>574dfda7-a585-4f1a-a05d-fdc39730c292</span>
-					            		</li>
-					            		<li class="">
-					            			<span class="bold text-right">aclID: </span>
-					            			<span>65707fbc-6569-49ef-bbe3-31b5db6eaee9</span>
-					            		</li>
-					            		<li class="">
-					            			<span class="bold text-right">status: </span>
-					            			<span>0</span>
-					            		s</li>
-					            	</ul>
-					            </td>
-					        </tr>
-					    </tbody>
-					</table>
+	<h1>ElasticSearchApp</h1>
+	<h2>Filters <button class="btn btn-danger">Stop</button></h2>
+	<form>
+		<div class="filter container-fluid">
+			<div class="row">
+				<div class="col">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+					    	<label class="input-group-text">App</label>
+					    </div>
+					    <select class="custom-select" multiple="" size="2">
+					    	<option value="1">Auth</option>
+					    	<option value="1">api-device</option>
+					    	<option value="1">api-sync</option>
+					   	 	<option value="1">api-entities</option>
+					   	 	<option value="1">bp-notification</option>
+					    </select>
+					</div>
+				</div>
+				<div class="col">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+					    	<label class="input-group-text">Level</label>
+					    </div>
+					    <select class="custom-select" multiple="" size="2">
+					    	<option value="1">Level 0</option>
+					    	<option value="1">Level 1</option>
+					   	 	<option value="1">Level 5</option>
+					   	 	<option value="1">Level 9</option>
+					    </select>
+					</div>
+				</div>
+				<div class="col">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+					    	<label class="input-group-text">Type</label>
+					    </div>
+					    <select class="custom-select" multiple="" size="2">
+					    	<option value="1">Type 0</option>
+					    	<option value="1">Type 1</option>
+					    	<option value="1">Type 3</option>
+					    	<option value="1">Type 4</option>
+					    	<option value="1">Type 6</option>
+					    	<option value="1">Type 8</option>
+					    	<option value="1">Type 9</option>
+					    </select>
+					</div>
+				</div>
+				<div class="col">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+					    	<label class="input-group-text">Status</label>
+					    </div>
+					    <select class="custom-select" multiple="" size="2">
+					    	<option value="1">Status 200</option>
+					    	<option value="2">Status 400</option>
+					   		<option value="3">Status 500</option>
+					    </select>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-around align-items-center">
+				<div class="col">
+					<div class="input-group mb-3">
+	  					<div class="input-group-prepend">
+	    					<span class="input-group-text">App</span>
+	  					</div>
+	  					<input type="text" class="form-control" placeholder="">
+					</div>
+				</div>
+				<div class="col">
+					<div class="input-group mb-3">
+	  					<div class="input-group-prepend">
+	    					<span class="input-group-text">rkey</span>
+	  					</div>
+	  					<input type="text" class="form-control" placeholder="">
+					</div>
+				</div>
+				<div class="col">
+					<div class="input-group mb-3">
+	  					<div class="input-group-prepend">
+	    					<span class="input-group-text">lvl</span>
+	  					</div>
+	  					<input type="text" class="form-control" placeholder="">
+					</div>
+				</div>
+				<div class="col">
+					<div class="input-group mb-3">
+	  					<div class="input-group-prepend">
+	    					<span class="input-group-text">Type</span>
+	  					</div>
+	  					<input type="text" class="form-control" placeholder="">
+					</div>
+				</div>
+				<div class="col">
+					<div class="input-group mb-3">
+	  					<div class="input-group-prepend">
+	    					<span class="input-group-text">Msg</span>
+	  					</div>
+	  					<input type="text" class="form-control" placeholder="" >
+					</div>
+				</div>
+				<div class="col">
+					<div class="input-group mb-3">
+	  					<div class="input-group-prepend">
+	    					<span class="input-group-text">Status</span>
+	  					</div>
+	  					<input type="text" class="form-control" placeholder="" >
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-2">
+					<div class="input-group mb-3">
+	  					<div class="input-group-prepend">
+	    					<span class="input-group-text">Number of logs</span>
+	  					</div>
+	  					<input type="text" class="form-control" placeholder="" >
+					</div>
+				</div>
+				<div class="col">
+					<div class="input-group mb-3">
+						<input type="submit" name="" value="Submit" class="btn btn-primary submit">
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</form>
+	<table class="table table-hover table-vcenter">
+		<tbody>
+			<tr>
+				<td class="first">
+					<ul>
+					    <li class="date">Чт, 31.01.2019</li>
+					    <li class="time bold">12:26.302</li>
+					    <li class="labels">
+					        <div class="label label-req">req</div> 
+					        <div class="label label-err">error</div>
+					    </li>
+					</ul>
+				</td>
+				<td class="second">
+					<ul>
+						<li class="api-name bold">api-entities</li>
+					    <li class="api-version">1.1.85</li>
+					    <li class="api-time bold">2d 23m</li>
+					</ul>
+				</td>
+				<td class="third">
+					<ul>
+					    <li class="bold">79503130989</li>
+					    <li class="">65707fbc-6569-49efbbe3-31b5db6eaee9</li>
+					</ul>
+				</td>
+				<td class="fourth">
+					<ul>
+					    <li class="bold">Nikolay@iPhoneXs</li>
+					    <li class="">65707fbc-6569-49ef-bbe3-31b5db6eaee9</li>
+					    <li class="">
+					        <span class="bold">SP2 v2.0.18290</span> 
+					        <span>192.168.1.20</span>
+					    </li>
+					</ul>
+				</td>
+				<td class="fifth">
+					<ul>
+						<li class="bold">Try save don't changed model</li>
+	            		<li class="">1548926973.591#b8b963b6-4838-409a-bb8e-baa9e2d7ad98</li>
+	            		<li class="bold">12 ms</li>
+	            	</ul>
+	            </td>
+	            <td class="sixth">
+	            	<ul>
+	            		<li class="">
+	            			<span class="bold text-right">ID: </span>
+	            			<span>574dfda7-a585-4f1a-a05d-fdc39730c292</span>
+	            		</li>
+	            		<li class="">
+	            			<span class="bold text-right">aclID: </span>
+	            			<span>65707fbc-6569-49ef-bbe3-31b5db6eaee9</span>
+	            		</li>
+	            		<li class="">
+	            			<span class="bold text-right">status: </span>
+	            			<span>0</span>
+	            		s</li>
+	            	</ul>
+	            </td>
+	        </tr>
+			<tr>
+				<td class="first">
+					<ul>
+					    <li class="date">Чт, 31.01.2019</li>
+					    <li class="time bold">12:26.302</li>
+					    <li class="labels">
+					        <div class="label label-req">req</div> 
+					        <div class="label label-err">error</div>
+					    </li>
+					</ul>
+				</td>
+				<td class="second">
+					<ul>
+						<li class="api-name bold">api-entities</li>
+					    <li class="api-version">1.1.85</li>
+					    <li class="api-time bold">2d 23m</li>
+					</ul>
+				</td>
+				<td class="third">
+					<ul>
+					    <li class="bold">79503130989</li>
+					    <li class="">65707fbc-6569-49efbbe3-31b5db6eaee9</li>
+					</ul>
+				</td>
+				<td class="fourth">
+					<ul>
+					    <li class="bold">Nikolay@iPhoneXs</li>
+					    <li class="">65707fbc-6569-49ef-bbe3-31b5db6eaee9</li>
+					    <li class="">
+					        <span class="bold">SP2 v2.0.18290</span> 
+					        <span>192.168.1.20</span>
+					    </li>
+					</ul>
+				</td>
+				<td class="fifth">
+					<ul>
+						<li class="bold">Try save don't changed model</li>
+	            		<li class="">1548926973.591#b8b963b6-4838-409a-bb8e-baa9e2d7ad98</li>
+	            		<li class="bold">12 ms</li>
+	            	</ul>
+	            </td>
+	            <td class="sixth">
+	            	<ul>
+	            		<li class="">
+	            			<span class="bold text-right">ID: </span>
+	            			<span>574dfda7-a585-4f1a-a05d-fdc39730c292</span>
+	            		</li>
+	            		<li class="">
+	            			<span class="bold text-right">aclID: </span>
+	            			<span>65707fbc-6569-49ef-bbe3-31b5db6eaee9</span>
+	            		</li>
+	            		<li class="">
+	            			<span class="bold text-right">status: </span>
+	            			<span>0</span>
+	            		s</li>
+	            	</ul>
+	            </td>
+	        </tr>
+			<tr>
+				<td class="first">
+					<ul>
+					    <li class="date">Чт, 31.01.2019</li>
+					    <li class="time bold">12:26.302</li>
+					    <li class="labels">
+					        <div class="label label-req">req</div> 
+					        <div class="label label-err">error</div>
+					    </li>
+					</ul>
+				</td>
+				<td class="second">
+					<ul>
+						<li class="api-name bold">api-entities</li>
+					    <li class="api-version">1.1.85</li>
+					    <li class="api-time bold">2d 23m</li>
+					</ul>
+				</td>
+				<td class="third">
+					<ul>
+					    <li class="bold">79503130989</li>
+					    <li class="">65707fbc-6569-49efbbe3-31b5db6eaee9</li>
+					</ul>
+				</td>
+				<td class="fourth">
+					<ul>
+					    <li class="bold">Nikolay@iPhoneXs</li>
+					    <li class="">65707fbc-6569-49ef-bbe3-31b5db6eaee9</li>
+					    <li class="">
+					        <span class="bold">SP2 v2.0.18290</span> 
+					        <span>192.168.1.20</span>
+					    </li>
+					</ul>
+				</td>
+				<td class="fifth">
+					<ul>
+						<li class="bold">Try save don't changed model</li>
+	            		<li class="">1548926973.591#b8b963b6-4838-409a-bb8e-baa9e2d7ad98</li>
+	            		<li class="bold">12 ms</li>
+	            	</ul>
+	            </td>
+	            <td class="sixth">
+	            	<ul>
+	            		<li class="">
+	            			<span class="bold text-right">ID: </span>
+	            			<span>574dfda7-a585-4f1a-a05d-fdc39730c292</span>
+	            		</li>
+	            		<li class="">
+	            			<span class="bold text-right">aclID: </span>
+	            			<span>65707fbc-6569-49ef-bbe3-31b5db6eaee9</span>
+	            		</li>
+	            		<li class="">
+	            			<span class="bold text-right">status: </span>
+	            			<span>0</span>
+	            		s</li>
+	            	</ul>
+	            </td>
+	        </tr>
+			<tr>
+				<td class="first">
+					<ul>
+					    <li class="date">Чт, 31.01.2019</li>
+					    <li class="time bold">12:26.302</li>
+					    <li class="labels">
+					        <div class="label label-req">req</div> 
+					        <div class="label label-err">error</div>
+					    </li>
+					</ul>
+				</td>
+				<td class="second">
+					<ul>
+						<li class="api-name bold">api-entities</li>
+					    <li class="api-version">1.1.85</li>
+					    <li class="api-time bold">2d 23m</li>
+					</ul>
+				</td>
+				<td class="third">
+					<ul>
+					    <li class="bold">79503130989</li>
+					    <li class="">65707fbc-6569-49efbbe3-31b5db6eaee9</li>
+					</ul>
+				</td>
+				<td class="fourth">
+					<ul>
+					    <li class="bold">Nikolay@iPhoneXs</li>
+					    <li class="">65707fbc-6569-49ef-bbe3-31b5db6eaee9</li>
+					    <li class="">
+					        <span class="bold">SP2 v2.0.18290</span> 
+					        <span>192.168.1.20</span>
+					    </li>
+					</ul>
+				</td>
+				<td class="fifth">
+					<ul>
+						<li class="bold">Try save don't changed model</li>
+	            		<li class="">1548926973.591#b8b963b6-4838-409a-bb8e-baa9e2d7ad98</li>
+	            		<li class="bold">12 ms</li>
+	            	</ul>
+	            </td>
+	            <td class="sixth">
+	            	<ul>
+	            		<li class="">
+	            			<span class="bold text-right">ID: </span>
+	            			<span>574dfda7-a585-4f1a-a05d-fdc39730c292</span>
+	            		</li>
+	            		<li class="">
+	            			<span class="bold text-right">aclID: </span>
+	            			<span>65707fbc-6569-49ef-bbe3-31b5db6eaee9</span>
+	            		</li>
+	            		<li class="">
+	            			<span class="bold text-right">status: </span>
+	            			<span>0</span>
+	            		s</li>
+	            	</ul>
+	            </td>
+	        </tr>
+	    </tbody>
+	</table>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
